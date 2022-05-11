@@ -293,7 +293,7 @@ public class MaFenetre extends JFrame implements ActionListener {
             
             if (grille.getWinner() == -1) {
 
-                JOptionPane.showMessageDialog(frame,"Match Nul !");
+                JOptionPane.showMessageDialog(frame,"Match Nul !", "Morpion" ,JOptionPane.QUESTION_MESSAGE);
             }
             else if (turn % 2 == 0) {
                 this.grille.setWinner(1);
